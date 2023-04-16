@@ -1,0 +1,3 @@
+# Preface {.unnumbered}
+
+In this book we will cover all the steps needed to create a eCommerce with Woocommerce, based on information from Platzi and other sources.

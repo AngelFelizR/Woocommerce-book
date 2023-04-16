@@ -1,0 +1,44 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Guide to create a woocommerce"
+  author: "Angel Feliz"
+  reader-mode: true
+  page-navigation: true
+  navbar:
+    pinned: true
+  sidebar:
+    pinned: true
+
+  page-footer:
+    left: |
+      Non official solitions of An Introduction to Statistical Learning 
+      Second Edition
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
+  cover-image: cover.png
+  favicon: favicon.png
+  repo-url: https://github.com/AngelFelizR/Woocommerce-book
+  repo-branch: main
+  chapters:
+  - index.qmd
+  - part: "Wordpress"
+    chapters: 
+      - 01-setting-working-environment.qmd
+  - part: "Woocommerce"
+      
+format:
+  html:
+    theme:
+      - cosmo
+    code-link: true
+    author-meta: "Angel Feliz"
+    callout-appearance: simple
+    toc-depth: 4
+
+execute:
+  warning: false
+
+editor: source
