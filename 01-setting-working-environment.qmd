@@ -6,3 +6,60 @@ format:
 
 # Setting working environment
 
+## Setting XAMPP
+
+It is a working environment created for PHP with an Apache web server and Mysql or Mariadb database. It's perfect if you are a web developer who works in more projects independent to WordPress. To configure this possibility follow the next steps:
+
+- Download and install [Xampp](https://www.apachefriends.org/es/download.html)
+- Download and unzip [WordPress](https://wordpress.org/download/)
+- Copy the WordPress folder to: "C:\\xampp\\htdocs"
+- Open Xampp and run Apache and Mysql
+![](img/00-running-xampp.png)
+<br>
+
+- Go the Xampp [administrator](http://localhost/phpmyadmin/) and create an empty database named for example "wp".
+![](img/01-creating-xampp-db.png)
+<br>
+
+- Go to [WordPress](http://localhost/wordpress) folder to start the installation.
+- Fill the configuration form as you can see bellow.
+![](img/02-installing-wordpress-xampp.png)
+<br>
+
+- Fill correctly your credintials.
+![](img/03-installing-wordpress-xampp.png)
+
+## Setting Local Wp
+
+This environment it's design to work with WordPress and offer the next advantages:
+
+- Can change easily between PHP versions.
+- Has Add-ons to add new functionalities like (Link Checker, Image Optimizer, Cloud Backups, Instant Reload and TablePlus)
+- Can create local security certificates (SSL)
+- Mailhog to manage emails.
+- Livelink to share the local website with others.
+- Blueprints to duplicate projects.
+
+To create our local site we need to follow the next steps:
+
+- Download and install [Local](https://localwp.com)
+- Click over the "Add Local site" in the bottom left of the program.
+![](img/04-creating-site-local.png)
+<br>
+
+- Define if you create a web from the scratch or from a blueprint.
+![](img/05-site-source-local.png)
+<br>
+
+- Define your internal name and folder to host our site.
+
+- Define your PHP version, web version and data base version.
+![](img/06-php-server-db-local.png)
+<br>
+
+- Define your WordPress credentials
+![](img/07-define-wordpress-credentials.png)
+<br>
+
+- On the overview page you can click TRUST to create a SSL over the local site.
+![](img/08-local-overview.png)

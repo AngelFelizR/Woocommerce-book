@@ -134,7 +134,14 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#setting-xampp" id="toc-setting-xampp" class="nav-link active" data-scroll-target="#setting-xampp"><span class="toc-section-number">1.1</span>  Setting XAMPP</a></li>
+  <li><a href="#setting-local-wp" id="toc-setting-local-wp" class="nav-link" data-scroll-target="#setting-local-wp"><span class="toc-section-number">1.2</span>  Setting Local Wp</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -156,8 +163,44 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="setting-xampp" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="setting-xampp"><span class="header-section-number">1.1</span> Setting XAMPP</h2>
+<p>It is a working environment created for PHP with an Apache web server and Mysql or Mariadb database. It’s perfect if you are a web developer who works in more projects independent to WordPress. To configure this possibility follow the next steps:</p>
+<ul>
+<li><p>Download and install <a href="https://www.apachefriends.org/es/download.html">Xampp</a></p></li>
+<li><p>Download and unzip <a href="https://wordpress.org/download/">WordPress</a></p></li>
+<li><p>Copy the WordPress folder to: “C:\xampp\htdocs”</p></li>
+<li><p>Open Xampp and run Apache and Mysql <img src="img/00-running-xampp.png" class="img-fluid"> <br></p></li>
+<li><p>Go the Xampp <a href="http://localhost/phpmyadmin/">administrator</a> and create an empty database named for example “wp”. <img src="img/01-creating-xampp-db.png" class="img-fluid"> <br></p></li>
+<li><p>Go to <a href="http://localhost/wordpress">WordPress</a> folder to start the installation.</p></li>
+<li><p>Fill the configuration form as you can see bellow. <img src="img/02-installing-wordpress-xampp.png" class="img-fluid"> <br></p></li>
+<li><p>Fill correctly your credintials. <img src="img/03-installing-wordpress-xampp.png" class="img-fluid"></p></li>
+</ul>
+</section>
+<section id="setting-local-wp" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="setting-local-wp"><span class="header-section-number">1.2</span> Setting Local Wp</h2>
+<p>This environment it’s design to work with WordPress and offer the next advantages:</p>
+<ul>
+<li>Can change easily between PHP versions.</li>
+<li>Has Add-ons to add new functionalities like (Link Checker, Image Optimizer, Cloud Backups, Instant Reload and TablePlus)</li>
+<li>Can create local security certificates (SSL)</li>
+<li>Mailhog to manage emails.</li>
+<li>Livelink to share the local website with others.</li>
+<li>Blueprints to duplicate projects.</li>
+</ul>
+<p>To create our local site we need to follow the next steps:</p>
+<ul>
+<li><p>Download and install <a href="https://localwp.com">Local</a></p></li>
+<li><p>Click over the “Add Local site” in the bottom left of the program. <img src="img/04-creating-site-local.png" class="img-fluid"> <br></p></li>
+<li><p>Define if you create a web from the scratch or from a blueprint. <img src="img/05-site-source-local.png" class="img-fluid"> <br></p></li>
+<li><p>Define your internal name and folder to host our site.</p></li>
+<li><p>Define your PHP version, web version and data base version. <img src="img/06-php-server-db-local.png" class="img-fluid"> <br></p></li>
+<li><p>Define your WordPress credentials <img src="img/07-define-wordpress-credentials.png" class="img-fluid"> <br></p></li>
+<li><p>On the overview page you can click TRUST to create a SSL over the local site. <img src="img/08-local-overview.png" class="img-fluid"></p></li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -305,7 +348,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Non official solitions of An Introduction to Statistical Learning Second Edition</div>   
+    <div class="nav-footer-left">Guide to create an eCommerce with Woocommerce</div>   
     <div class="nav-footer-right">This book was built with <a href="https://quarto.org/">Quarto</a>.</div>
   </div>
 </footer>

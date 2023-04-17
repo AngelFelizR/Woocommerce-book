@@ -14,8 +14,7 @@ book:
 
   page-footer:
     left: |
-      Non official solitions of An Introduction to Statistical Learning 
-      Second Edition
+      Guide to create an eCommerce with Woocommerce
     right: |
       This book was built with <a href="https://quarto.org/">Quarto</a>.
   cover-image: cover.png

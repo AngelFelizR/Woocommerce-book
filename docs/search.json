@@ -5,5 +5,19 @@
     "title": "Guide to create a woocommerce",
     "section": "",
     "text": "Preface\nIn this book we will cover all the steps needed to create a eCommerce with Woocommerce, based on information from Platzi and other sources."
+  },
+  {
+    "objectID": "01-setting-working-environment.html#setting-xampp",
+    "href": "01-setting-working-environment.html#setting-xampp",
+    "title": "1  Setting working environment",
+    "section": "1.1 Setting XAMPP",
+    "text": "1.1 Setting XAMPP\nIt is a working environment created for PHP with an Apache web server and Mysql or Mariadb database. It’s perfect if you are a web developer who works in more projects independent to WordPress. To configure this possibility follow the next steps:\n\nDownload and install Xampp\nDownload and unzip WordPress\nCopy the WordPress folder to: “C:\\xampp\\htdocs”\nOpen Xampp and run Apache and Mysql  \nGo the Xampp administrator and create an empty database named for example “wp”.  \nGo to WordPress folder to start the installation.\nFill the configuration form as you can see bellow.  \nFill correctly your credintials."
+  },
+  {
+    "objectID": "01-setting-working-environment.html#setting-local-wp",
+    "href": "01-setting-working-environment.html#setting-local-wp",
+    "title": "1  Setting working environment",
+    "section": "1.2 Setting Local Wp",
+    "text": "1.2 Setting Local Wp\nThis environment it’s design to work with WordPress and offer the next advantages:\n\nCan change easily between PHP versions.\nHas Add-ons to add new functionalities like (Link Checker, Image Optimizer, Cloud Backups, Instant Reload and TablePlus)\nCan create local security certificates (SSL)\nMailhog to manage emails.\nLivelink to share the local website with others.\nBlueprints to duplicate projects.\n\nTo create our local site we need to follow the next steps:\n\nDownload and install Local\nClick over the “Add Local site” in the bottom left of the program.  \nDefine if you create a web from the scratch or from a blueprint.  \nDefine your internal name and folder to host our site.\nDefine your PHP version, web version and data base version.  \nDefine your WordPress credentials  \nOn the overview page you can click TRUST to create a SSL over the local site."
   }
 ]
